@@ -73,7 +73,7 @@ Example output
 
 ---
 
-📈 Future Improvements
+## 📈 Future Improvements
 
 * Real-time webcam support
 * Batch processing for large datasets
