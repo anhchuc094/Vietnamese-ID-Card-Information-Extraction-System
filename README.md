@@ -23,7 +23,7 @@ Typical use cases:
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 * Automatic ID card detection
 * Image preprocessing for improved recognition accuracy
@@ -34,13 +34,49 @@ Typical use cases:
 
 ---
 
-## Technologies Used
+## 🧠 Technologies Used
 
 * Python
 * OpenCV, Pillow
 * Yolo
 * Numpy
 * VietOCR
+
+---
+
+## ▶️ Workflow
+### 1. Preprocessing Image
+![alt text](./Pics/anh.jpg)
+
+### 2. Field Detection
+![alt text](./Pics/anh1.jpg)
+
+### 3. OCR
+Example output
+```json
+{
+  "fields": {
+    "id" :{
+      "text" : "026204006602",
+      "detection_confidence": 0.8745,
+      "ocr_confidence": 0.9326
+    },
+    "dob": {
+      "text": "09/04/2004",
+      "detection_confidence": 0.8311,
+      "ocr_confidence": 0.9278
+    },
+    ...
+  }
+}
+```
+
+---
+
+📈 Future Improvements
+
+* Real-time webcam support
+* Batch processing for large datasets
 
 ---
 
